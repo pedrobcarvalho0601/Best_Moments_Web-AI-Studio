@@ -9,10 +9,10 @@ interface HeroProps {
 }
 
 const heroImages = [
-  { src: "https://picsum.photos/seed/happy_seniors_travel/1920/1080", alt: "Grupo de idosos felizes numa viagem" },
-  { src: "https://picsum.photos/seed/seniors_laughing_group/1920/1080", alt: "Grupo de idosos a rir e a conversar animadamente" },
-  { src: "https://picsum.photos/seed/family_with_grandparents/1920/1080", alt: "Família de várias gerações a sorrir junta" },
-  { src: "https://picsum.photos/seed/elderly_couple_dancing/1920/1080", alt: "Casal de idosos a dançar num salão" },
+  { src: "https://picsum.photos/seed/family_generations/1920/1080", alt: "Família de várias gerações a sorrir, celebrando a união" },
+  { src: "https://picsum.photos/seed/cozy_nursing_home/1920/1080", alt: "Ambiente acolhedor de um lar de idosos com residentes a conversar" },
+  { src: "https://picsum.photos/seed/grandparent_and_child/1920/1080", alt: "Avô a ler uma história para a sua neta com carinho" },
+  { src: "https://picsum.photos/seed/seniors_with_kids/1920/1080", alt: "Idosos a brincar com crianças num jardim, partilhando alegria" },
 ];
 
 const Hero: React.FC<HeroProps> = ({ setActiveSection }) => {
